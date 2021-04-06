@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title This is title
+    style
+      include ../static/style.css
+
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/1.png")
+          | DA
+        li #[a(href="/") Home]
+        li #[a(href="/") Class info]
+        li #[a(href="/") Services]
+        li #[a(href="/") About]
+        li #[a(href="/") Help]
+        li #[a(href="/") Contact Us]
+
+    section#interoSection
+      div Practice With Passon
+      div.small Wellcome To Our Dance Community
+
+    section#missionSection
+     h2 Our Mission
+     div.card
+        h3 BETTER FOR YOR PAST
+        div.card-box
+           div.card-img
+             img(src="/static/4.png")
+           div.card-content
+              p Information of academy
+     div.card
+        h3 KNOW WHAT YOU ARE
+        div.card-box
+           div.card-img
+             img(src="/static/5.png")
+           div.card-content
+              p Information of academy
+     div.card
+        h3 BE YOU WITH YOUR DANCE
+        div.card-box
+           div.card-img
+             img(src="/static/6.png")
+           div.card-content
+              p Information of academy
+
+    section#sponsersSection
+      h2 Our Sponsers
+
+    footer#footer
+      p &copy Copyright 2019 DA.com , All Rights Reserved
+
+      script
+        include ../static/index.js

@@ -1,0 +1,132 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Josefin+Sans:wght@700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+      font-family: 'Caladea', serif;
+
+
+}
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 1em;
+  margin: 3px 19px;
+
+}
+#logo img{
+  height: 24px;
+  filter: invert(1);
+}
+#navbar{
+  background-color: skyblue;
+  padding: 14px 7px;
+      font-family: 'Caladea', serif;
+      background-color: black;
+}
+#navbar ul{
+  display: flex;
+  flex-direction:row;
+  /* justify-content: center; */
+  align-items: center;
+}
+#navbar li{
+  list-style: none;
+}
+#navbar li a:hover
+{
+  color: gray;
+  text-decoration: underline 2px solid white;
+}
+#navbar li a
+{
+  padding:8px 27px;
+  text-decoration:none;
+  font-size: 1.3rem;
+  color: white;
+}
+#interoSection{
+  font-family: 'Josefin Sans', sans-serif;
+  background: center / cover no-repeat url("../static/Bg.jpg");
+  height: 425px;
+  background-color: red;
+  color: #ec7f11;
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 182px
+
+}
+#interoSection div.small{
+  font-size: 1.5rem;
+}
+#missionSection{
+  height: 300px;
+  margin: auto;
+  width: 100%;
+  background: white
+}
+#missionSection h2{
+  text-align: center;
+  padding-top: 23px;
+  font-family: 'Caladea', serif;
+  font-size: 2em;
+}
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card h3{
+  text-align:center;
+  margin-bottom: 8px;
+}
+.card-content{
+  padding: 10px;
+  font-size: 15px;
+  font-family:fantasy;
+}
+.card-img{
+  height: 100px;
+  padding: 0px 8px;
+  margin-top: 36px;
+}
+.card-img img{
+  max-width: 153px;
+  padding: 0 14px;
+  height: 100px;
+/* filter: invert(1); */
+}
+.card{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px 22px;
+  height: 200px;
+  padding: 10px 15px;
+  display: inline-block;
+}
+#sponsersSection{
+  height: 300px;
+  background-color: green;
+}
+#sponsersSection h2{
+  text-align: center;
+  padding-top: 23px;
+  font-family: 'Caladea', serif;
+}
+#footer{
+  background-color: blue;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-family:inherit;;
+}

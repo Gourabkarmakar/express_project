@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style
+  style
+    include ../static/style.css
+
+block content
+
+
+
+  section#interoSection
+    div Practice With Passon
+    div.small Wellcome To Our Dance Community
+
+  section#missionSection
+   h2 Our Mission
+   div.card
+      h3 BETTER FOR YOR PAST
+      div.card-box
+         div.card-img
+           img(src="/static/4.png")
+         div.card-content
+            p Information of academy
+   div.card
+      h3 KNOW WHAT YOU ARE
+      div.card-box
+         div.card-img
+           img(src="/static/5.png")
+         div.card-content
+            p Information of academy
+   div.card
+      h3 BE YOU WITH YOUR DANCE
+      div.card-box
+         div.card-img
+           img(src="/static/6.png")
+         div.card-content
+            p Information of academy
+
+  section#sponsersSection
+    h2 Our Sponsers
